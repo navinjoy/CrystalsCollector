@@ -5,11 +5,11 @@ var wins = 0;
 var losses = 0;
 var isGameOver=false;
 var audio1 = new Audio('assets/images/sound1.mp3');
-var audio2 = new Audio('assets/images/sound2.wav');
-var audio3 = new Audio('assets/images/sound3.wav');
-var audio4 = new Audio('assets/images/sound4.wav');
-var claps = new Audio('assets/images/claps.wav');
-var loose = new Audio('assets/images/loose.wav');
+var audio2 = new Audio('assets/images/sound2.mp3');
+var audio3 = new Audio('assets/images/sound3.mp3');
+var audio4 = new Audio('assets/images/sound4.mp3');
+var claps = new Audio('assets/images/claps.mp3');
+var loose = new Audio('assets/images/loose.mp3');
 
 function getRandomNum(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
