@@ -4,7 +4,7 @@ var randNum1, randNum2, randNum3, randNum4;
 var wins = 0;
 var losses = 0;
 var isGameOver=false;
-var audio1 = new Audio('assets/images/sound1.wav');
+var audio1 = new Audio('assets/images/sound1.mp3');
 var audio2 = new Audio('assets/images/sound2.wav');
 var audio3 = new Audio('assets/images/sound3.wav');
 var audio4 = new Audio('assets/images/sound4.wav');
